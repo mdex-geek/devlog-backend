@@ -1,0 +1,24 @@
+spring.application.name=DevLog 
+
+
+# jwt secret 
+jwt.secret=
+
+# Database Configuration
+spring.datasource.url=jdbc:postgresql://localhost:5432/devlogdb
+spring.datasource.username=devlog
+spring.datasource.password=devlog123
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+
+# JPA Configuration
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=
+spring.mail.password=
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
